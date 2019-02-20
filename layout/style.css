@@ -1,0 +1,663 @@
+*
+{
+    background-position: center;
+}
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+body
+{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+}
+/*design the responsivebilty of the navbar*/
+.abovenavbar
+{
+    display: inline-block;
+    width: 100%;
+    margin-top: 1vh;
+}
+.abovenavbar>div
+{
+    float: left;
+    height: 60px;
+}
+.logo
+{
+    font-size: 2.5em;
+    font-weight: 500;
+    padding-top: 9px;
+}
+.navcontainerfl
+{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.datet
+{
+    font-size: 2.1em;
+    font-weight: 300;
+    padding-top: 18px;
+}
+.emptyheart
+{
+    float: right;
+    padding-top: 26px;
+}
+.nav-item
+{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+/*
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link 
+{
+    color: #63d05a;
+}
+*/
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #63d05a;
+}
+
+
+/*end design the responsivebilty of the navbar*/
+/*begin the styling of the carousel */
+
+
+.maincarousel
+{
+    height: 75vh;
+}
+.carouseldiv
+{
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    width: inherit;
+    height: inherit;
+}
+.caro1
+{
+    background-image: url(first.jpg);
+}
+.caro2
+{
+    background-image: url(seconde.jpg);
+}
+.caro3
+{
+    background-image: url(third.jpg)    ;
+}
+.caro4
+{
+    background-image: url(fourth.jpg);
+}
+.carousel-item
+{
+    height:inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+    font-weight: bolder;
+}
+hr 
+{
+    border-top: 4px solid rgb(255, 255, 255); 
+    transition-duration: 0.5s;
+}
+.carousel-inner
+{
+    height: inherit;
+}
+.carouselimgs
+{
+    max-height: inherit;
+    min-height: inherit;
+}
+.leftcaro
+{
+    font-size: 8vh;
+}
+.rightcaro
+{
+    font-size: 4vh;
+}
+.rightcaroresp
+{
+    transform: translateY(20px);
+    transition-duration: 0.5s;
+}
+.leftcaroresp
+{
+    transform: translateY(-20px);
+    transition-duration: 0.5s;
+}
+
+
+/*FINSHEd desinging the responsive carousel */
+
+/*begin our two weeks dates small div */
+.thistwoweeks
+{
+    margin: 60px 0px;
+    text-align: center;
+    color: #777;
+}
+.thistwoweeksdates
+{
+    padding: 25px 0px;
+    border: 1px solid #ccc;
+}
+.tdates
+{
+    font-size: 23px;
+}
+/*end of the two weeks dates*/
+
+
+
+.stillhappen
+{
+    margin: 20px 0px;
+}
+.generaldisc
+{
+    font-size: 4vh;
+}
+.titleofdiv
+{
+    font-size: 5.5vh;
+}
+.newsbuttons
+{
+    color: black;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+    color: #000;
+}
+.mynews
+{
+    margin-top: 30px;
+}
+.newsobj
+{
+    
+}
+.imgcon
+{
+    overflow: hidden;
+}
+.newsimg
+{
+    height: 23vh;
+    background-size: cover;
+    transition-duration:0.4s;
+} 
+.newsimg11
+{
+    background-image: url(news/news1div/n1.jpg);
+}
+.newsimg12
+{
+    background-image: url(news/news1div/n2.jpg);
+}
+.newsimg13
+{
+    background-image: url(news/news1div/n3.jpg);
+}
+.newsimg14
+{
+    background-image: url(news/news1div/n4.jpg);
+}
+
+.newsimg21
+{
+    background-image: url(news/news2div/n1.jpg);
+}
+.newsimg22
+{
+    background-image: url(news/news2div/n2.jpg);
+}
+.newsimg23
+{
+    background-image: url(news/news2div/n3.jpg);
+}
+.newsimg24
+{
+    background-image: url(news/news2div/n4.jpg);
+}
+.newsimg31
+{
+    background-image: url(news/news3div/n1.jpg);
+}
+.newsimg32
+{
+    background-image: url(news/news3div/n2.jpg);
+}
+.newsimg33
+{
+    background-image: url(news/news3div/n3.jpg);
+}
+.newsimg34
+{
+    background-image: url(news/news3div/n4.jpg);
+}
+.newsimg41
+{
+    background-image: url(news/news4div/n1.jpg);
+}
+.newsimg42
+{
+    background-image: url(news/news4div/n2.jpg);
+}
+.newsimg43
+{
+    background-image: url(news/news4div/n3.jpg);
+}
+.newsimg44
+{
+    background-image: url(news/news4div/n4.jpg);
+}
+.newsimg45
+{
+    background-image: url(news/news4div/n5.jpg);
+}
+.newsimg46
+{
+    background-image: url(news/news4div/n6.jpg);
+}
+.newsimg47
+{
+    background-image: url(news/news4div/n7.jpg);
+}
+.newsimg48
+{
+    background-image: url(news/news4div/n8.jpg);
+}
+.newsimg51
+{
+    background-image: url(news/news5div/n1.jpg);
+}
+.newsimg52
+{
+    background-image: url(news/news5div/n2.jpg);
+}
+.newsimg53
+{
+    background-image: url(news/news5div/n3.jpg);
+}
+.newsimg54
+{
+    background-image: url(news/news5div/n4.jpg);
+}
+.newsimg55
+{
+    background-image: url(news/news5div/n5.jpg);
+}
+.newsimg56
+{
+    background-image: url(news/news5div/n6.jpg);
+}
+.newsimg57
+{
+    background-image: url(news/news5div/n7.jpg);
+}
+.newsimg58
+{
+    background-image: url(news/news5div/n8.jpg);
+}
+.imgcon:hover>.newsimg
+{
+    height: 20vh;
+    transform: scale(1.8);
+}
+.newsdisc
+{
+    letter-spacing: 0.7px;
+    font-size: 3vh;
+    font-weight: 300;
+    color: #555;
+}
+.newstext
+{
+    margin: 10px 0px;
+}
+.newstitle
+{
+    font-weight: bolder;
+    letter-spacing: 0.7px;
+    color: #444;
+    font-size: 3.5vh;
+    margin: 5px 0px;
+    
+}
+.nonews
+{
+    background-color: #bbb;
+    font-size: 4vh;
+    padding-left: 15px 40px;
+    color: #444;
+}
+.directors
+{
+    margin: 95px 0px;
+}
+/*end of our first news*/
+.damasterful
+{
+    background-image: linear-gradient(180deg, transparent 2%, #000), linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(general/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.connectedwords
+{
+    font-size: 7.2vh;
+    letter-spacing: 2px;
+}
+.firstline
+{
+    margin-top: 35px;
+}
+.secondoword
+{
+    font-weight: bolder;
+}
+.thirdoword
+{
+    font-weight: 300;
+    font-size: 5.1vh;
+}
+.increaselinesize
+{
+    height: 0px;
+}
+.sticktodownright
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.sticktodownleft
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.firstline,.scondeline,.thirdline
+{
+    height: 0vh;
+    transition-duration: 0.7s
+}
+.fourthdoword
+{
+    text-align: right;
+    padding: 0px 0px;
+    font-size: 5.1vh;
+    font-weight: bolder;
+}
+.mybox
+{
+    transform: scaleY(1.1);
+    height: 290px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mybox>div
+{
+    font-weight: 1000;
+    position: absolute;
+    bottom: 10px;
+    letter-spacing: 2px;
+    font-size: 3vh;
+    left: 10px;
+}
+.mybox1
+{
+    background-image: url(general/master1.jpg);
+}
+.mybox2
+{
+    background-image: url(general/master2.jpg);
+}
+.mybox3
+{
+    background-image: url(general/master3.jpg);
+}
+/*end of the masterful div*/
+.justin
+{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 1000;
+}
+.justinmovies
+{
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movietitle
+{
+    font-size: 3.6vh;
+    margin-top: 10px;
+    font-weight: 1000;
+    letter-spacing: 0.7px;
+}
+.moviedesc
+{
+    padding-right: 13px;
+    font-size: 3.4vh;
+    font-weight: 400;
+    color:#777;
+}
+.morenews
+{
+    box-sizing: border-box;
+    font-size: 3vh;
+    font-weight: 1000;
+    margin: 30px 0px;;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    text-align: right;
+}
+.movieimg
+{
+    max-width: inherit;
+    min-width: inherit;
+}
+.ebox
+{
+    transform: translateY(10px);
+    transition-duration: 0.3s;
+}
+.ebox:hover
+{
+    transform: translateY(-10px);
+    opacity: 0.7;
+}
+.movie1>.justinmovies
+{
+    background-image: url(movies/m1.jpg);
+}
+.movie2>.justinmovies
+{
+    background-image: url(movies/m2.jpg);
+}
+.movie3>.justinmovies
+{
+    background-image: url(movies/m3.jpg);
+}
+.movie4>.justinmovies
+{
+    background-image: url(movies/m4.jpg);
+}
+.movie5>.justinmovies
+{
+    background-image: url(movies/m5.jpg);
+}
+.movie6>.justinmovies
+{
+    background-image: url(movies/m6.jpg);
+}
+.movie7>.justinmovies
+{
+    background-image: url(news/news2div/n2.jpg);
+}
+.movie8>.justinmovies
+{
+    background-image: url(news/news2div/n1.jpg);
+}
+/*finished our movies section and the whole page so now begin in the footer desing*/
+footer
+{
+    background-color: black;
+    color: white;
+}
+footer>.row
+{
+    padding-top: 28px;
+}
+.socialicons
+{
+    font-size: 7.7vh;
+}
+.summarymenus
+{
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.summarymenus:not(:first-child)
+{
+    font-size: 3.5vh;
+    font-weight: 500;
+}
+.summarymenus>ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.summarymenus>ul>li
+{
+    height: 27px;
+}
+.mybrands>div
+{
+    height: 300px;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+.mybrands:nth-of-type(1)>div
+{
+    background-image: url(general/brands/b1.jpg);
+}
+.mybrands:nth-of-type(2)>div
+{
+    background-image: url(general/brands/b2.svg);
+}
+.mybrands:nth-of-type(3)>div
+{
+    background-image: url(general/brands/b3.svg);
+}
+.mybrands:nth-of-type(4)>div
+{
+    background-image: url(general/brands/b4.svg);
+}
+.mybrands:nth-of-type(5)>div
+{
+    background-image: url(general/brands/b5.svg);
+}
+.mybrands:nth-of-type(6)>div
+{
+    background-image: url(general/brands/b6.svg);
+}
+
+
+@media (max-width: 767px)
+{
+    .navbar
+    {
+        position: fixed;
+        bottom: 42px;
+        border: 1px solid #ccc;
+    }
+    .fixedbuttons
+    {
+        position: fixed;
+        bottom: 20px;
+        left: 10px;
+        right: 10px;
+        color: black !important;
+        background-color: white;
+        border: 0.5px solid #ccc;
+        height: 40px;
+        border-radius: 5px;
+        float: right;
+        overflow: hidden;
+        z-index: 100;
+    }
+    .menuresp
+    {
+        border: 0.5px solid #ccc;
+        border-radius: 0px;
+        float: right;
+        width: 25%;
+    }
+    .mynav
+    {
+        width: 100%;
+    }
+    .contianerfliudedit
+    {
+        width: 90%;
+        z-index: 10;
+    }
+    .navbar-toggler
+    {
+        padding-top: 9px;
+    }  
+    .logo
+    {
+        font-size: 1.5em;
+        padding-top: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-weight: 500;
+    }
+    .datet
+    {
+        font-size: 1.13em;
+        padding-top: 22px;
+        font-weight: 300;
+    }
+    .justinnews>.row>div
+    {
+        margin-top: 20vh;
+    }
+}
+/* and for the screens above 767px width ^_^ */
+@media (min-width: 767px)
+{
+    .rightcaro
+    {
+        margin-top: 30vh;
+    }
+    .rightcaroresp
+    {
+        transform: translateY(50px);
+    }
+    .leftcaroresp
+    {
+        transform: translateY(-50px)
+    }
+    .justinnews>.row:nth-of-type(3),.justinnews>.row:nth-of-type(4)
+    {
+        margin-top: 20vh;
+    }
+}
